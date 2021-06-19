@@ -62,8 +62,7 @@ def split_ip(ipstr):
 
 def conn(ip_port):
     """
-    输入ip：port形式的套接字，使用socket进行连接，设置连接超时时间为0.00001
-
+    输入ip：port形式的套接字，使用socket进行连接，设置连接超时时间为0.001
     :param ip_port:  ip:port 例：192.168.1.1:443
     :return:True/False
     """
